@@ -17,7 +17,7 @@ include '../includes/nav.php';
                 <hr>
                 <div class="pt-4">
                     <div class="card">
-                        <p class="p-4">
+                        <p class="p-4" style="font-size: 18px;">
                             “This is something I have never told anyone and I finally gathered the courage to talk about it. When I was about 6-7 years old my sister
                             and I used to play this game when my parents were not around. You know how girls usually have these role-playing games like being husband
                             and wife and all that, so I used to force my sister to play with me. And one play when we were playing that my sister told me to take off my clothes
@@ -31,7 +31,7 @@ include '../includes/nav.php';
 
                 <div class="pt-4">
                     <div class="card">
-                        <p class="p-4">
+                        <p class="p-4" style="font-size: 18px;">
                             "Though I am a boy, I have something to say and want some suggestions. I live in Balkot and whenever I take the bus, it is too packed, 2-3 times this incident
                             has happened to me. Once when I was standing, a girl came closer and started to remain touchy. She started to tilt her body towards me and starts catching my hand.
                             If I say her not to do so, what if she yells and blames at me for my undone mistakes. I need suggestions on what to do at those times. Its first time I am sharing
@@ -41,7 +41,7 @@ include '../includes/nav.php';
                 </div>
                 <div class="pt-4">
                     <div class="card">
-                        <p class="p-4">
+                        <p class="p-4" style="font-size: 18px;">
                             "I had also experienced harassment at a very small age I was aged 9 when I was harassed. I didn't get it then but now I know it was wrong. I was
                             in my mamaghar playing and then my so dai (mama ko chora) called me inside and asked me to take off my pants and touched my vagina and smelled it.
                             He was aged 16/17 thankfully he didn't do anything wrong more than that. He told me to go outside then as a kid I was unknown but I feel so bad realizing it now.

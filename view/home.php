@@ -8,7 +8,7 @@ include '../includes/nav.php';
 <style>
     .vl {
         border-left: 4px solid lightgray;
-        height: 800px;
+        height: 1500px;
     }
 
     .v2 {
@@ -29,6 +29,28 @@ include '../includes/nav.php';
                 <a href="../view/home.php?casetype=hit"><h5>Hit and run</h5></a>
                 <hr>
                 <a href="../view/home.php?casetype=acid"><h5>Acid Attack cases</h5></a>
+            </div>
+            <div class="v2 pt-5"> </div>
+
+            <div class="pt-3">
+                <h4 class="text-muted text-primary">Emergency Numbers</h4>
+                <div class="text-info pt-3" style="font-size: 18px">
+
+                    Police Control: 100 <br>
+                    Police Emergency Number: 01-4228435<br>
+                    Metropolitan Police Range (Kathmandu): 01-4261945/01-4261790<br>
+                    Metropolitan Police Range (Lalitpur): 01-5521207<br>
+                    Metropolitan Police Range (Bhaktapur): 01-6614821<br>
+                    Lalitpur Redcross Ambulance Service: 01-5545666<br>
+                    Redcross Ambulance Service: 01-4244121<br>
+                    Blood Bank: 01-4225344<br>
+                    Nepal Ambulance Service: 01-4427833<br>
+                    Shakti Samuha: 01-4478117/4481380<br>
+                    Maiti Nepal: 01-4492904<br>
+                    The Women’s Foundation Nepal: 01-5155160<br>
+                    Raksha-Nepal: 01-4437552<br>
+
+                </div>
             </div>
             <div class="v2 pt-5"> </div>
             <div class="pt-3">

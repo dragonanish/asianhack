@@ -15,25 +15,28 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
                     <ul class="navbar-nav ml-auto" style="font-size: 20px; ">
                         <li class="nav-item">
-                            <a class="nav-link pr-3 pl-3 font-weight-bold" style="font-size: 20px;" href="../view/home.php" name="home">Home</a>
+                            <a class="nav-link pr-2 pl-2 font-weight-bold" style="font-size: 20px;" href="../view/home.php" name="home">Home</a>
                         </li>
                         <?php 
                             if(isset($_SESSION['UserType'])){
                             if($_SESSION["UserType"]=="admin"){
                          ?>
                          <li class="nav-item">
-                            <a class="nav-link pr-3 pl-3 font-weight-bold" style="font-size: 20px; " href="../view/UsersList.php" name="data">Users List</a>
+                            <a class="nav-link pr-2 pl-2 font-weight-bold" style="font-size: 20px; " href="../view/UsersList.php" name="data">Users List</a>
                         </li>
                     <?php }else{ ?>
                         <li class="nav-item">
-                            <a class="nav-link pr-3 pl-3 font-weight-bold" style="font-size: 20px; " href="../view/myDetail.php" name="data">My Detail</a>
+                            <a class="nav-link pr-2 pl-2 font-weight-bold" style="font-size: 20px; " href="../view/myDetail.php" name="data">My Detail</a>
                         </li>
                     <?php }} ?>
                         <li class="nav-item">
-                            <a class="nav-link pr-3 pl-3 font-weight-bold" style="font-size: 20px; " href="../view/preventions.php" name="data">Preventions</a>
+                            <a class="nav-link pr-2 pl-2 font-weight-bold" style="font-size: 20px; " href="../view/preventions.php" name="data">Preventions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pr-2 pl-2 font-weight-bold" style="font-size: 20px; " href="../view/events.php" name="data">Events</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link pr-3 pl-3 dropdown-toggle font-weight-bold" style="font-size: 20px; " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link pr-2 pl-2 dropdown-toggle font-weight-bold" style="font-size: 20px; " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Muluki Ain
                             </a>
                             <div class="dropdown-menu font-weight-bold" aria-labelledby="navbarDropdown">
@@ -46,10 +49,10 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pr-3 font-weight-bold"  style="font-size: 20px; " href="../view/stories.php" name="about">Share Stories</a>
+                            <a class="nav-link pr-2 font-weight-bold"  style="font-size: 20px; " href="../view/stories.php" name="about">Share Stories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pr-3 font-weight-bold"  style="font-size: 20px; " href="../view/about.php" name="about">About</a>
+                            <a class="nav-link pr-2 font-weight-bold"  style="font-size: 20px; " href="../view/about.php" name="about">About</a>
                         </li>
                         <li class="nav-item pt-1">
                             <a type="button" class="btn btn-danger btn-md text-light justify-content-center" href="../view/donate.php" name="donate">DONATE</a>
