@@ -16,8 +16,8 @@ if (isset($_POST['btn_register'])) {
 
 
     if($name!=null && $username!=null && $email!=null && $pass!=null && $num1!=null&& $address1!=null){
-        $query="insert into user(FullName,FullNameOPT,Email,Phone1,Phone2, Address1, Address2,Password, Gender)".
-            "values('$name','$username','$email','$num1','$num2','$address1','$address2','$pass', '$gender')";
+        $query="insert into user(FullName,FullNameOPT,Email,Phone1,Phone2, Address1, Address2,Password, Gender, UserType)".
+            "values('$name','$username','$email','$num1','$num2','$address1','$address2','$pass', '$gender','user')";
     }
     else{
         header("location:../view/register.php");
