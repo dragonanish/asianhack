@@ -6,7 +6,7 @@
         <div class="col-1"></div>
         <div class="col-8">
             <!--Navbar -->
-            <nav class="mb-1 navbar navbar-expand-lg navbar-dark info-color fixed-top">
+            <nav class="mb-1 navbar navbar-expand-lg navbar-dark info-color">
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
                         aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
