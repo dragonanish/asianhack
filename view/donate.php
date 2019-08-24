@@ -27,6 +27,7 @@ include '../includes/nav.php';
                 <div class="card shadow-sm">
                     <!-- Card content -->
                     <div class="card-body">
+
                         <h2 class="card-title text-danger">Support Us</h2>
                         <hr>
                         <!-- Text -->
@@ -34,7 +35,8 @@ include '../includes/nav.php';
                         <p class="card-text"><h3>1. Nabil bank</h3><p class="pl-5">Account name: sahayogiHaat <br>Account name:1410017504959</p>
                         <p class="card-text"><h3>2. Nepal Investment bank</h3><p class="pl-5">Account name: sahayogiHaat<br>Account name:1410017504959</p>
                         <p class="card-text"><h3>3. Prabhu bank</h3><p class="pl-5">Account name: sahayogiHaat<br>Account name:1410017504959</p>
-                        <!-- Link -->
+
+
                        
 
                     </div>
