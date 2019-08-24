@@ -1,6 +1,6 @@
 <div class="container-fluid" style="background-color: #11748B">
-	 <span class=" text-dark p-1 "><center>2019<br> SahayogiHaat (Dragons)© All rights reserved</center></span>
-    <div class="row mt-4">
+
+    <div class="row">
 
         <div class="col-12">
 
