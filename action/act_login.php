@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
 	session_start();
 	include "DbConnection.php";
@@ -25,5 +25,3 @@
 	}
 
 ?>
-=======
->>>>>>> b628d6c55f40aad64b536a5ad1dea01f98cf5196
