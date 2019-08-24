@@ -1,9 +1,6 @@
-<?php
-session_start();
-include '../action/DbConnection.php';
-include '../includes/header.php';
-include '../includes/nav.php';
-?>
+
+
+
 
     <div class="container-fluid">
         <div class="row pt-4">
@@ -37,3 +34,4 @@ include '../includes/nav.php';
     </div>
 
 <?php include '../includes/footer.php'; ?>
+
