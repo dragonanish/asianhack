@@ -35,8 +35,9 @@ include '../includes/nav.php';
                 <h4 class="text-muted text-primary">Top donations this week</h4>
                 <div class="text-info pt-3" style="font-size: 18px">
                     Alka Shilpakar : Rs. 100000/- <br>
-                    Alka Shilpakar : Rs. 100000/- <br>
-                    Alka Shilpakar : Rs. 100000/- <br>
+                    Anish Shrestha : Rs. 1100000/- <br>
+                    Dibas Paudel : Rs. 100/- <br>
+                    Sujana Sakya: Rs. 100/- <br>
                 </div>
             </div>
             <div class="v2 pt-5"> </div>
