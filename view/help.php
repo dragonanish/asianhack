@@ -14,7 +14,7 @@ include '../includes/nav.php';
 
         <div class="col-8 pt-2">
             
-            <div class="pt-4 pl-3">
+            <div class="pt-4 pl-4">
                 <!-- Card  -->
                 <div class="card shadow-sm">
                     <!-- Card content -->

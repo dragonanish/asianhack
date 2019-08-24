@@ -9,7 +9,7 @@ include '../includes/nav.php';
         <div class="row pt-4">
             <div class="col-2"></div>
             <div class="col-8">
-                <h4 class="text-muted">SHARE YOUR STORIES</h4>
+                <h3 class="text-muted font-weight-bold">SHARE YOUR STORIES</h3>
                 <hr>
                 <textarea type="text" id="report" name="report" class="form-control" placeholder="Add your story"></textarea>
                 <div class="pt-2 text-right"><button class="btn btn-outline-info btn-rounded pt-2" type="submit" name="btn_comment" value="Save">Share</button>
