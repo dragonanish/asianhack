@@ -1,9 +1,13 @@
 <div class="container-fluid" style="background-color: #11748B">
+	 <span class=" text-dark p-1 "><center>2019<br> SahayogiHaat (Dragons)© All rights reserved</center></span>
     <div class="row mt-4">
+
         <div class="col-12">
+
             <a href="#" class="p-2 text-light border-right">Contact us</a>
             <a href="#" class="p-2 text-light">Terms of service</a>
             <span class=" text-light p-1 float-right">2018 SahayogiHaat All rights reserved</span>
+
         </div>
     </div>
 </div>

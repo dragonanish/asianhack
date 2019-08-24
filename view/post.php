@@ -1,6 +1,8 @@
 <?php
 session_start();
 include '../action/DbConnection.php';
+
+if(isset($_SESSION['UserId'])){
 ?>
 <!DOCTYPE html>
 <html>
@@ -23,7 +25,7 @@ include '../action/DbConnection.php';
 
                 <div class="card-body mt-3">
                     <h3 class="text-muted text-dark">CASE</h3>
-                    <form class="text-center" action="../action/act_post.php" method="post">
+                    <form class="text-center" action="../action/act_post.php" method="post" enctype="multipart/form-data">
                         <div class="form-group">
                             <textarea type="text" id="report" name="report" class="form-control" placeholder="Report (required)"></textarea>
                         </div>
@@ -44,7 +46,7 @@ include '../action/DbConnection.php';
                         </div>
                         <div class="form-group">
                             <label for="image" class="text-muted text-right">Picture: </label>
-                            <input type="file" id="image" name="image" class="form-control" placeholder="Picture">
+                            <input type="file" name="image" class="form-control" placeholder="Picture">
                         </div>
                         <hr>
 
@@ -98,3 +100,6 @@ include '../action/DbConnection.php';
 <script type="text/javascript" src="../asset/js/bootstrap.min.js"></script>
 </body>
 </html>
+<?php }else{
+    header('location:login.php');
+} ?>
