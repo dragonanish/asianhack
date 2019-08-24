@@ -1,7 +1,7 @@
 <div class="container-fluid" style="background-color: #11748B">
     <div class="row">
         <div class="col-3">
-            <img src="../asset/images/loho.png" alt="" height="80px" width="300px" >
+            <h2 class="pt-3 pl-4" style="color: whitesmoke; font-family: Bahnschrift;">SAHAYOGI HAAT</h2>
         </div>
         <div class="col-1"></div>
         <div class="col-8">
@@ -34,7 +34,7 @@
                         </li>
                         <?php if(isset($_SESSION['UserId'])){ ?>
                             <li class="nav-item pl-2 pt-1">
-                            <a type="button" class="btn btn-outline-dark btn-md text-light justify-content-center" href="../action/act_logout.php" name="login">LOGOUt</a>
+                            <a type="button" class="btn btn-outline-dark btn-md text-light justify-content-center" href="../action/act_logout.php" name="login">LOGOUT</a>
                         </li>
                         
                         <?php }else{
