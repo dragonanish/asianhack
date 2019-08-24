@@ -65,12 +65,14 @@ include '../includes/nav.php';
                 <div class="card shadow-sm">
                     <!-- Card content -->
                     <div class="card-body">
-                        <div>
-                            <h4 class="card-title"><?php echo $data['FullNameOPT']; ?></h4>
-                            <i style="float: right;font-size: 12px;">[<?php echo $data['EnteredDate']; ?>]</i>
+                        <div class="align-items-baseline">
+                            <h4 class="card-title d-flex"><?php echo $data['FullNameOPT']; ?></h4>
+                            <hr>
+                            <p class="align-items-baseline" style="float: right;font-size: 12px;">[<?php echo $data['EnteredDate']; ?>]</p>
                         </div>
-                        <hr>
+
                         <!-- Text -->
+                        <div>
                         <p class="card-text"><?php echo $data['Post']; ?></p>
                         <!-- Link -->
                         <a href="post_view.php?id=<?php echo $data['PostId']; ?>" class="black-text d-flex justify-content-end"><h5>Read more <i class="fas fa-angle-double-right"></i></h5></a>
