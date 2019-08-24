@@ -1,7 +1,7 @@
 <div class="container-fluid" style="background-color: #11748B">
     <div class="row">
         <div class="col-3">
-
+            <h2 class="pt-3 pl-4" style="color: whitesmoke; font-family: Bahnschrift;">SAHAYOGI HAAT</h2>
         </div>
         <div class="col-1"></div>
         <div class="col-8">
@@ -30,11 +30,11 @@
                             <a class="nav-link pr-3 font-weight-bold"  style="font-size: 20px; " href="../view/about.php" name="about">About</a>
                         </li>
                         <li class="nav-item pt-1">
-                            <a type="button" class="btn btn-danger btn-md text-light justify-content-center" href="../view/donate.php" name="login">DONATE</a>
+                            <a type="button" class="btn btn-danger btn-md text-light justify-content-center" href="../view/donate.php" name="donate">DONATE</a>
                         </li>
                         <?php if(isset($_SESSION['UserId'])){ ?>
                             <li class="nav-item pl-2 pt-1">
-                            <a type="button" class="btn btn-outline-dark btn-md text-light justify-content-center" href="../action/act_logout.php" name="login">LOGOUt</a>
+                            <a type="button" class="btn btn-outline-dark btn-md text-light justify-content-center" href="../action/act_logout.php" name="login">LOGOUT</a>
                         </li>
                         
                         <?php }else{

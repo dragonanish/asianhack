@@ -63,28 +63,12 @@ include '../includes/nav.php';
                             exercitationem facere harum ipsam iust nisi rem reprehenderit. Atque culpa cupiditate ea laborum officia qu
                             isquam repellat repudiandae sit. Nemo!</p>
                         <!-- Link -->
-                        <a href="#!" class="black-text d-flex justify-content-end"><h5>Read more <i class="fas fa-angle-double-right"></i></h5></a>
+                        <a href="post_view.php" class="black-text d-flex justify-content-end"><h5>Read more <i class="fas fa-angle-double-right"></i></h5></a>
 
                     </div>
                 </div>
             </div>
-            <div class="pt-4 pl-3">
-                <!-- Card  -->
-                <div class="card shadow-sm">
-                    <!-- Card content -->
-                    <div class="card-body">
-                        <h4 class="card-title">My harassment Story</h4>
-                        <hr>
-                        <!-- Text -->
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dignissimos
-                            exercitationem facere harum ipsam iust nisi rem reprehenderit. Atque culpa cupiditate ea laborum officia qu
-                            isquam repellat repudiandae sit. Nemo!</p>
-                        <!-- Link -->
-                        <a href="#!" class="black-text d-flex justify-content-end"><h5>Read more <i class="fas fa-angle-double-right"></i></h5></a>
 
-                    </div>
-                </div>
-            </div>
         </div>
 
 
