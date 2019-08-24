@@ -48,13 +48,21 @@ include '../action/DbConnection.php';
                         </div>
                         <hr>
 
+                        <?php 
+                            if(isset($_SESSION["UserId"]))
+                            {
+
+                            }else{
+
+
+                         ?>
 
                         <h3 class="text-muted text-dark text-left">Personal Information</h3>
                         <div class="form-group pt-2">
                             <input type="text" id="name1" name="name1" class="form-control" placeholder="Full Name (required)">
                         </div>
                         <div class="form-group">
-                            <input type="text" id="name2" name="name2" class="form-control" placeholder="User Name (required)">
+                            <input type="text" id="name2" name="name2" class="form-control" placeholder="User Name">
                         </div>
                         <div class="form-group">
                             <input type="text" id="address1" name="address1" class="form-control" placeholder="Address 1 (required)">
@@ -71,6 +79,7 @@ include '../action/DbConnection.php';
                         <div class="form-group">
                             <input type="email" id="email" name="email" class="form-control" placeholder="Email">
                         </div>
+                    <?php } ?>
 
                         <button class="btn btn-outline-info btn-rounded" type="submit" name="btn_submit" value="Save">Submit</button>
 
