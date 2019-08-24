@@ -17,6 +17,18 @@
                         <li class="nav-item">
                             <a class="nav-link pr-3 pl-3 font-weight-bold" style="font-size: 20px;" href="../view/home.php" name="home">Home</a>
                         </li>
+                        <?php 
+                            if(isset($_SESSION['UserType'])){
+                            if($_SESSION["UserType"]=="admin"){
+                         ?>
+                         <li class="nav-item">
+                            <a class="nav-link pr-3 pl-3 font-weight-bold" style="font-size: 20px; " href="../view/UsersList.php" name="data">Users List</a>
+                        </li>
+                    <?php }else{ ?>
+                        <li class="nav-item">
+                            <a class="nav-link pr-3 pl-3 font-weight-bold" style="font-size: 20px; " href="../view/myDetail.php" name="data">My Detail</a>
+                        </li>
+                    <?php }} ?>
                         <li class="nav-item">
                             <a class="nav-link pr-3 pl-3 font-weight-bold" style="font-size: 20px; " href="../view/preventions.php" name="data">Preventions</a>
                         </li>

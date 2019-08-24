@@ -15,6 +15,7 @@
 		if (mysqli_num_rows($results) == 1) {
 			$logged_in_user = mysqli_fetch_assoc($results);
 			$_SESSION['UserId'] = $logged_in_user['UserId'];
+			$_SESSION['UserType'] = $logged_in_user['UserType'];
 			header('location: ../view/home.php');		  
 		}else{
 			header('location: ../view/login.php');	
