@@ -1,12 +1,5 @@
 <?php
-<<<<<<< HEAD
-/**
- * Created by PhpStorm.
- * User: DELL
- * Date: 8/24/2019
- * Time: 11:09 AM
- */
-=======
+
 session_start();
 include '../action/DbConnection.php';
 include '../includes/header.php';
@@ -51,4 +44,4 @@ include '../includes/nav.php';
 </div>
 
 <?php include '../includes/footer.php'; ?>
->>>>>>> fa68826e88ba010dd361cd6207146f9a80c94b49
+
