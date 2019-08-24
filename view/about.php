@@ -1,8 +1,13 @@
 
+<?php
+session_start();
+include '../action/DbConnection.php';
+include '../includes/header.php';
+include '../includes/nav.php';
+?>
 
 
-
-    <div class="container-fluid">
+    <div class="container-fluid pt-3">
         <div class="row pt-4">
             <div class="col-2"></div>
             <div class="col-8">
@@ -21,6 +26,11 @@
                     <div class="card border-primary" style="width: 35rem;">
                         <span class=" card-header bodystyle p-2 text-center">Contact Us</span></br>
                         <div style="font-size: 22px;" class="p-2  text-center">Our location: Balkumari, Lalitpur</div>
+                        <div style="font-size: 22px;" class="p-2  text-center">Email: sahayogihaat@gmail.com</div>
+                        <div style="font-size: 22px;" class="p-2  text-center">For any Queries: 9803579790</div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-
-
+                        <?php include '../includes/footer.php'; ?>
