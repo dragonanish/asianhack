@@ -28,6 +28,7 @@
                                 <a class="dropdown-item" href="../muluki/rape.php">Rape and harassment</a>
                                 <a class="dropdown-item" href="../muluki/violence.php">Domestic Violence</a>
                                 <a class="dropdown-item" href="../muluki/hit.php">Hit and Run</a>
+                                <a class="dropdown-item" href="../muluki/cyber.php">Cyber Crimes</a>
                                 <a class="dropdown-item" href="../muluki">Acid Attack</a>
 
                             </div>
