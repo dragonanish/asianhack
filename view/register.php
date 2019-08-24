@@ -54,13 +54,13 @@ include '../action/DbConnection.php';
                         <button class="btn btn-outline-info btn-rounded" type="submit" name="btn_register" value="Save">Register</button>
 
                         <div class="form-group mt-3">
-                            <span style="color: red;">
+                            <!-- <span style="color: red;">
                                        <?php
-                                       if (isset($_SESSION['user'])) {
-                                           echo $_SESSION['user'];
-                                           unset($_SESSION['user']);
-                                       }
-                                       ?> </span>
+                                       // if (isset($_SESSION['user'])) {
+                                       //     echo $_SESSION['user'];
+                                       //     unset($_SESSION['user']);
+                                       // }
+                                       ?> </span> -->
                             <p>Not a member?
                                 <a href="login.php">Login</a>
                             </p>

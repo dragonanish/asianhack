@@ -32,12 +32,20 @@
                         <li class="nav-item pt-1">
                             <a type="button" class="btn btn-danger btn-md text-light justify-content-center" href="../view/donate.php" name="donate">DONATE</a>
                         </li>
+                        <?php if(isset($_SESSION['UserId'])){ ?>
+                            <li class="nav-item pl-2 pt-1">
+                            <a type="button" class="btn btn-outline-dark btn-md text-light justify-content-center" href="../action/act_logout.php" name="login">LOGOUt</a>
+                        </li>
+                        
+                        <?php }else{
+                     ?>
                         <li class="nav-item pl-2 pt-1">
                             <a type="button" class="btn btn-outline-dark btn-md text-light justify-content-center" href="../view/login.php" name="login">LOGIN</a>
                         </li>
                         <li class="nav-item pl-2 pt-1">
                             <a type="button" class="btn btn-outline-dark btn-md text-light" href="../view/register.php">REGISTER</a>
                         </li>
+                    <?php } ?>
                     </ul>
                 </div>
             </nav>
