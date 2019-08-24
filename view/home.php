@@ -23,12 +23,12 @@ include '../includes/nav.php';
         <div class="col-3 pt-2">
             <div>
                 <h3 class="text-muted ">CASES</h3><hr>
-                <a href="" type="button"><h5>Rape and molestation</h5></a><hr>
-                <a href="" type="button"><h5>Sexual harassment</h5></a><hr>
-                <a href="" type="button"><h5>Domestic Violence</h5></a><hr>
-                <a href="" type="button"><h5>Hit and run</h5></a>
+                <a href="../view/home.php?casetype=rape"><h5>Rape and molestation</h5></a><hr>
+                <a href="../view/home.php?casetype=harassment"><h5>Sexual harassment</h5></a><hr>
+                <a href="../view/home.php?casetype=violence"><h5>Domestic Violence</h5></a><hr>
+                <a href="../view/home.php?casetype=hit"><h5>Hit and run</h5></a>
                 <hr>
-                <a href="" type="button"><h5>Acid Attack cases</h5></a>
+                <a href="../view/home.php?casetype=acid"><h5>Acid Attack cases</h5></a>
             </div>
             <div class="v2 pt-5"> </div>
             <div class="pt-3">
@@ -53,6 +53,38 @@ include '../includes/nav.php';
             </div>
             <div class="pt-4 pl-3">
                 <!-- Card  -->
+                <?php 
+                    if(isset($_GET["casetype"])){
+                        $casetype = $_GET["casetype"];
+                 ?>
+                <?php 
+                    $sql = "SELECT u.FullNameOPT, p.Post,p.PostId,p.EnteredDate FROM post p LEFT JOIN user u on u.UserId = p.UserId where p.CaseType='".$casetype."' order by p.EnteredDate Desc";
+                    $postResult = mysqli_query($db,$sql);
+
+                    while ($data = mysqli_fetch_assoc($postResult)) {
+                       
+                 ?>
+
+
+                <div class="card shadow-sm">
+                    <!-- Card content -->
+                    <div class="card-body">
+                        <div>
+                            <h4 class="card-title"><?php echo $data['FullNameOPT']; ?></h4>
+                            <i style="float: right;font-size: 12px;">[<?php echo $data['EnteredDate']; ?>]</i>
+                        </div>
+                        <hr>
+                        <!-- Text -->
+                        <p class="card-text"><?php echo $data['Post']; ?></p>
+                        <!-- Link -->
+                        <a href="post_view.php?id=<?php echo $data['PostId']; ?>" class="black-text d-flex justify-content-end"><h5>Read more <i class="fas fa-angle-double-right"></i></h5></a>
+
+                    </div>
+                </div><div style="height: 5px;"></div>
+                <?php 
+                    }
+                 ?>
+             <?php }else{ ?>
                 <?php 
                     $sql = "SELECT u.FullNameOPT, p.Post,p.PostId,p.EnteredDate FROM post p LEFT JOIN user u on u.UserId = p.UserId order by p.EnteredDate Desc";
                     $postResult = mysqli_query($db,$sql);
@@ -79,6 +111,7 @@ include '../includes/nav.php';
                 </div><div style="height: 5px;"></div>
                 <?php 
                     }
+                }
                  ?>
             </div>
 
