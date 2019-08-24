@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con= mysqli_connect("localhost", "root", "", "gallery");?>
+include '../action/DbConnection.php';
 <!DOCTYPE html>
 <html>
 <head>
