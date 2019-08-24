@@ -27,6 +27,8 @@ include '../includes/nav.php';
                 <a href="" type="button"><h5>Sexual harassment</h5></a><hr>
                 <a href="" type="button"><h5>Domestic Violence</h5></a><hr>
                 <a href="" type="button"><h5>Hit and run</h5></a>
+                <hr>
+                <a href="" type="button"><h5>Acid Attack cases</h5></a>
             </div>
             <div class="v2 pt-5"> </div>
             <div class="pt-3">
