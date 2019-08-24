@@ -18,19 +18,19 @@
                             <a class="nav-link pr-3 pl-3 font-weight-bold" style="font-size: 20px;" href="../view/home.php" name="home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pr-3 pl-3 font-weight-bold" style="font-size: 20px; " href="data" name="data">Preventions</a>
+                            <a class="nav-link pr-3 pl-3 font-weight-bold" style="font-size: 20px; " href="../view/preventions.php" name="data">Preventions</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pr-3 font-weight-bold"  style="font-size: 20px; " href="about" name="about">Get Help</a>
+                            <a class="nav-link pr-3 font-weight-bold"  style="font-size: 20px; " href="../view/help.php" name="about">Get Help</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pr-3 font-weight-bold"  style="font-size: 20px; " href="about" name="about">Share Stories</a>
+                            <a class="nav-link pr-3 font-weight-bold"  style="font-size: 20px; " href="../view/stories.php" name="about">Share Stories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pr-3 font-weight-bold"  style="font-size: 20px; " href="about" name="about">About</a>
+                            <a class="nav-link pr-3 font-weight-bold"  style="font-size: 20px; " href="../view/about.php" name="about">About</a>
                         </li>
                         <li class="nav-item pt-1">
-                            <a type="button" class="btn btn-danger btn-md text-light justify-content-center" href="login" name="login">DONATE</a>
+                            <a type="button" class="btn btn-danger btn-md text-light justify-content-center" href="../view/donate.php" name="login">DONATE</a>
                         </li>
                         <?php if(isset($_SESSION['UserId'])){ ?>
                             <li class="nav-item pl-2 pt-1">
@@ -39,11 +39,11 @@
                         
                         <?php }else{
                      ?>
-                     <li class="nav-item pl-2 pt-1">
-                            <a type="button" class="btn btn-outline-dark btn-md text-light justify-content-center" href="login" name="login">LOGIN</a>
+                        <li class="nav-item pl-2 pt-1">
+                            <a type="button" class="btn btn-outline-dark btn-md text-light justify-content-center" href="../view/login.php" name="login">LOGIN</a>
                         </li>
                         <li class="nav-item pl-2 pt-1">
-                            <a type="button" class="btn btn-outline-dark btn-md text-light" href="register">REGISTER</a>
+                            <a type="button" class="btn btn-outline-dark btn-md text-light" href="../view/register.php">REGISTER</a>
                         </li>
                     <?php } ?>
                     </ul>
