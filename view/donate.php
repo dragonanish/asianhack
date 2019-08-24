@@ -54,12 +54,12 @@ include '../includes/nav.php';
                 <div class="card shadow-sm">
                     <!-- Card content -->
                     <div class="card-body">
-                        <h1 class="card-title">You Can Support Us By Donating Here!!!!!!</h1>
+                        <h4 class="card-title">You Can Support Us By Donating Here!!!!!!</h4>
                         <hr>
                         <!-- Text -->
-                        <p class="card-text"><h3>Nabil bank A/C Number</h3><br><Account name: sahayogiHaat<br>Account name:1410017504959</p>
-                        <p class="card-text"><h3>Nepal Investment bank A/C Number</h3><br>Account name: sahayogiHaat<br>Account name:1410017504959</p>
-                        <p class="card-text"><h3>Prabhu bank A/C Number</h3><br>Account name: sahayogiHaat<br>Account name:1410017504959</p>
+                        <p class="card-title"><h3 class="card-title">Nabil bank A/C Number</h3><br>Account name: sahayogiHaat<br>Account name:1410017504959</p>
+                        <p class="card-title"><h3 class="card-title">Nepal Investment bank A/C Number</h3><br>Account name: sahayogiHaat<br>Account name:1410017504959</p>
+                        <p class="card-title"><h3 class="card-title">Prabhu bank A/C Number</h3><br>Account name: sahayogiHaat<br>Account name:1410017504959</p>
                         <!-- Link -->
                        
 
