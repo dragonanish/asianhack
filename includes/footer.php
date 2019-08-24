@@ -6,7 +6,7 @@
 
             <a href="#" class="p-2 text-light border-right">Contact us</a>
             <a href="#" class="p-2 text-light">Terms of service</a>
-            <span class=" text-light p-1 float-right">2018 SahayogiHaat All rights reserved</span>
+            <span class=" text-light p-1 float-right">2019 SahayogiHaat All rights reserved</span>
 
         </div>
     </div>
