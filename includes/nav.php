@@ -20,8 +20,17 @@
                         <li class="nav-item">
                             <a class="nav-link pr-3 pl-3 font-weight-bold" style="font-size: 20px; " href="../view/preventions.php" name="data">Preventions</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link pr-3 font-weight-bold"  style="font-size: 20px; " href="../view/help.php" name="about">Get Help</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link pr-3 pl-3 dropdown-toggle font-weight-bold" style="font-size: 20px; " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Muluki Ain
+                            </a>
+                            <div class="dropdown-menu font-weight-bold" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="../muluki/rape.php">Rape and harassment</a>
+                                <a class="dropdown-item" href="../muluki/violence.php">Domestic Violence</a>
+                                <a class="dropdown-item" href="../muluki/hit.php">Hit and Run</a>
+                                <a class="dropdown-item" href="../muluki">Acid Attack</a>
+
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link pr-3 font-weight-bold"  style="font-size: 20px; " href="../view/stories.php" name="about">Share Stories</a>
