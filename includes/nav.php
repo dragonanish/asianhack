@@ -3,8 +3,8 @@
         <div class="col-3">
             <h2 class="pt-3 pl-4" style="color: whitesmoke; font-family: Bahnschrift;">SAHAYOGI HAAT</h2>
         </div>
-        <div class="col-1"></div>
-        <div class="col-8">
+        <div class="col-"></div>
+        <div class="col-9">
             <!--Navbar -->
             <nav class="mb-1 navbar navbar-expand-lg navbar-dark info-color">
 
