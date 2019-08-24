@@ -47,7 +47,7 @@ include '../includes/nav.php';
 
         <div class="col-8 pt-2">
             <div class="pl-3">
-            <a type="button" class="btn btn-danger btn-lg text-light" href="#" name="report">POST A REPORT</a>
+            <a type="button" class="btn btn-danger btn-lg text-light" href="post.php" name="report">CASE REPORT</a>
             </div>
             <div class="pt-4 pl-3">
                 <!-- Card  -->
