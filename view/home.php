@@ -53,20 +53,33 @@ include '../includes/nav.php';
             </div>
             <div class="pt-4 pl-3">
                 <!-- Card  -->
+                <?php 
+                    $sql = "SELECT u.FullNameOPT, p.Post,p.PostId,p.EnteredDate FROM post p LEFT JOIN user u on u.UserId = p.UserId order by p.EnteredDate Desc";
+                    $postResult = mysqli_query($db,$sql);
+
+                    while ($data = mysqli_fetch_assoc($postResult)) {
+                       
+                 ?>
+
+
                 <div class="card shadow-sm">
                     <!-- Card content -->
                     <div class="card-body">
-                        <h4 class="card-title">My harassment Story</h4>
+                        <div>
+                            <h4 class="card-title"><?php echo $data['FullNameOPT']; ?></h4>
+                            <i style="float: right;font-size: 12px;">[<?php echo $data['EnteredDate']; ?>]</i>
+                        </div>
                         <hr>
                         <!-- Text -->
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dignissimos
-                            exercitationem facere harum ipsam iust nisi rem reprehenderit. Atque culpa cupiditate ea laborum officia qu
-                            isquam repellat repudiandae sit. Nemo!</p>
+                        <p class="card-text"><?php echo $data['Post']; ?></p>
                         <!-- Link -->
-                        <a href="post_view.php" class="black-text d-flex justify-content-end"><h5>Read more <i class="fas fa-angle-double-right"></i></h5></a>
+                        <a href="post_view.php?id=<?php echo $data['PostId']; ?>" class="black-text d-flex justify-content-end"><h5>Read more <i class="fas fa-angle-double-right"></i></h5></a>
 
                     </div>
-                </div>
+                </div><div style="height: 5px;"></div>
+                <?php 
+                    }
+                 ?>
             </div>
 
         </div>
