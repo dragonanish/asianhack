@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <html>
 <head>
     <title></title>
@@ -37,12 +38,19 @@
                         <li class="nav-item pt-1">
                             <a type="button" class="btn btn-danger btn-md text-light justify-content-center" href="login" name="login">DONATE</a>
                         </li>
+                        <?php if($_Session['UserId'] == null){ ?>
                         <li class="nav-item pl-2 pt-1">
                             <a type="button" class="btn btn-outline-dark btn-md text-light justify-content-center" href="login" name="login">LOGIN</a>
                         </li>
                         <li class="nav-item pl-2 pt-1">
                             <a type="button" class="btn btn-outline-dark btn-md text-light" href="register">REGISTER</a>
                         </li>
+                    <?php }else{
+                     ?>
+                     <li class="nav-item pl-2 pt-1">
+                            <a type="button" class="btn btn-outline-dark btn-md text-light justify-content-center" href="logout" name="login">LOGOUt</a>
+                        </li>
+                    <?php } ?>
                     </ul>
                 </div>
             </nav>
