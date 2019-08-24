@@ -63,9 +63,12 @@ include '../includes/nav.php';
                         <i style="float: right;font-size: 12px;">[<?php echo $row['EnteredDate']; ?>]</i>
                     </div>
                     <p><?php echo $row['comment']; ?></p>
-                    <?php if($_SESSION["UserId"] == $row["UserId"]){ ?>
+
+                    <?php 
+                    if(isset($_SESSION["UserId"])){
+                    if($_SESSION["UserId"] == $row["UserId"]){ ?>
                     <a class="btn btn-danger btn-sm" style="float: right;" href="../action/act_deleteComment.php?id=<?php echo $row['CommentId'] ?>">DELETE</a>
-                <?php } ?>
+                <?php }} ?>
                 </div>
             </div>
             </div>
