@@ -41,9 +41,8 @@ include '../includes/nav.php';
                 </div>
             </div>
             <div class="v2 pt-5"> </div>
-            <div>
-                <!-- ADS -->
-                ADS
+            <div style="width: 300px; height: 100px; background-color: #6a6c6e;">
+                <h1 style="padding-top: 30px; padding-left: 50px;">Ad's Here</h1>
             </div>
         </div>
         <div class="vl"></div>
