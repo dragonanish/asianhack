@@ -21,17 +21,6 @@
                     <div class="card border-primary" style="width: 35rem;">
                         <span class=" card-header bodystyle p-2 text-center">Contact Us</span></br>
                         <div style="font-size: 22px;" class="p-2  text-center">Our location: Balkumari, Lalitpur</div>
-                        <div style="font-size: 22px;" class="p-2  text-center">Email ID: sahayogihaat@gmail.com
-                        </div>
-                        <div style="font-size: 22px;" class="p-2  text-center">For any Queries: 9803579790</div>
-                    </div>
-                </div>
 
 
-            </div>
-            <div class="col-2"></div>
-        </div>
-    </div>
-
-<?php include '../includes/footer.php'; ?>
 
