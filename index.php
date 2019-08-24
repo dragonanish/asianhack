@@ -81,7 +81,7 @@
                 <a href="" type="button"><h5>Sexual harassment</h5></a><hr>
                 <a href="" type="button"><h5>Domestic Violence</h5></a><hr>
                 <a href="" type="button"><h5>Hit and run</h5></a>
-                <hr>
+                 <hr>
                 <a href="" type="button"><h5>Acid Attack cases</h5></a>
             </div>
             <div class="v2 pt-5"> </div>
@@ -150,7 +150,7 @@
         <div class="col-12">
             <a href="#" class="p-2 text-dark border-right">Contact us</a>
             <a href="#" class="p-2 text-dark">Terms of service</a>
-            <span class=" text-dark p-1 float-right">2018 ArtMela All rights reserved</span>
+            <span class=" text-dark p-1 float-right">2019 Sahayogi Haat All rights reserved</span>
         </div>
     </div>
 </div>
