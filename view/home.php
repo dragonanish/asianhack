@@ -1,3 +1,4 @@
+
 <?php
 session_start();
 include '../action/DbConnection.php';
@@ -17,9 +18,8 @@ include '../includes/nav.php';
     }
 </style>
 
-<div class="container-fluid pt-2">
+<div class="container-fluid">
     <div class="row">
-
         <div class="col-3 pt-2">
             <div>
                 <h3 class="text-muted ">CASES</h3><hr>
@@ -52,6 +52,7 @@ include '../includes/nav.php';
 
                 </div>
             </div>
+
             <div class="v2 pt-5"> </div>
             <div class="pt-3">
                 <h4 class="text-muted text-primary">Top donations this week</h4>
@@ -63,6 +64,7 @@ include '../includes/nav.php';
                 </div>
             </div>
             <div class="v2 pt-5"> </div>
+
             <div class="pt-5 pl-4">
             <div  style="width: 300px; height: 100px; background-color: #6a6c6e;">
                 <h1 style="padding-top: 30px; padding-left: 50px;">Ad's Here</h1>
@@ -71,11 +73,11 @@ include '../includes/nav.php';
         </div>
         <div class="vl"></div>
 
-        <div class="col-8 pt-2">
+        <div class="col-8 pt-3">
             <div class="pl-3">
             <a type="button" class="btn btn-danger btn-lg text-light" href="post.php" name="report">CASE REPORT</a>
             </div>
-            <div class="pt-4 pl-3">
+            
                 <!-- Card  -->
                 <?php 
                     if(isset($_GET["casetype"])){
@@ -90,6 +92,7 @@ include '../includes/nav.php';
                  ?>
 
 
+               <div class="pt-4 pl-3">
                 <div class="card shadow-sm">
                     <!-- Card content -->
                     <div class="card-body">
@@ -104,11 +107,17 @@ include '../includes/nav.php';
                         <a href="post_view.php?id=<?php echo $data['PostId']; ?>" class="black-text d-flex justify-content-end"><h5>Read more <i class="fas fa-angle-double-right"></i></h5></a>
 
                     </div>
-                </div><div style="height: 5px;"></div>
+                </div>
+               </div>
+           
+
+               
                 <?php 
                     }
                  ?>
-             <?php }else{ ?>
+                <?php }else{ ?>
+
+               
                 <?php 
                     $sql = "SELECT u.FullNameOPT, p.Post,p.PostId,p.EnteredDate FROM post p LEFT JOIN user u on u.UserId = p.UserId order by p.EnteredDate Desc";
                     $postResult = mysqli_query($db,$sql);
@@ -118,6 +127,7 @@ include '../includes/nav.php';
                  ?>
 
 
+                 <div class="pt-4 pl-3">
                 <div class="card shadow-sm">
                     <!-- Card content -->
                     <div class="card-body">
@@ -128,19 +138,18 @@ include '../includes/nav.php';
                         </div>
 
                         <!-- Text -->
-                        <div>
+                        
                         <p class="card-text"><?php echo $data['Post']; ?></p>
                         <!-- Link -->
                         <a href="post_view.php?id=<?php echo $data['PostId']; ?>" class="black-text d-flex justify-content-end"><h5>Read more <i class="fas fa-angle-double-right"></i></h5></a>
-
                     </div>
-                </div><div style="height: 5px;"></div>
-                <?php 
+               </div>
+                </div>
+                 <?php 
                     }
                 }
                  ?>
-            </div>
-
+              
         </div>
 
 

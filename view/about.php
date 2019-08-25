@@ -14,7 +14,7 @@ include '../includes/nav.php';
                 <h2 class="text-muted">About Us</h2>
                 <hr>
 
-                <h5 class="pt-5">Sahayogi Haat is the platform where an individual can report about the crimes which made them a victim or the crime they have witnessed.
+                <h5 class="pt-5 text-muted">Sahayogi Haat is the platform where an individual can report about the crimes which made them a victim or the crime they have witnessed.
                     The individual will not have to show their identity when they post about their problem Also, a person can post about their problems and
                     can get relevant suggestions from the public. The report that you post will be directly be viewed by the police or crime investigation
                     representative and immediate action will be taken as possible. You can also post the evidence if you have it so that the culprit can be
