@@ -102,7 +102,7 @@ include '../includes/nav.php';
                         </div>
                         <hr>
                         <!-- Text -->
-                        <p class="card-text"><?php echo $data['Post']; ?></p>
+                        <p class="card-text"><?php echo substr($data['Post'],0,230); ?>...</p>
                         <!-- Link -->
                         <a href="post_view.php?id=<?php echo $data['PostId']; ?>" class="black-text d-flex justify-content-end"><h5>Read more <i class="fas fa-angle-double-right"></i></h5></a>
 
@@ -139,7 +139,7 @@ include '../includes/nav.php';
 
                         <!-- Text -->
                         
-                        <p class="card-text"><?php echo $data['Post']; ?></p>
+                        <p class="card-text"><?php echo substr($data['Post'],0,230); ?>...</p>
                         <!-- Link -->
                         <a href="post_view.php?id=<?php echo $data['PostId']; ?>" class="black-text d-flex justify-content-end"><h5>Read more <i class="fas fa-angle-double-right"></i></h5></a>
                     </div>
