@@ -26,7 +26,11 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="card-body d-flex">
-                    <img src="../image/<?php echo $data['PostImage'];?>" height="200px" width="200px">
+                    <?php if($data['PostImage']!=null){
+                        ?>
+                        <img src="../image/<?php echo $data['PostImage'];?>" height="200px" width="200px">
+                    <?php } ?>
+
                     <p class="pl-2"> <?php echo $data['Post']; ?> </p>
 
                 </div>

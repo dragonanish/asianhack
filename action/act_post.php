@@ -9,12 +9,15 @@ if(isset($_POST['btn_submit'])) {
     $location=$_POST['location'];
 
     $image = $_FILES['image']['name'];
-    $image_temp = $_FILES['image']['tmp_name'];
-    $ext = pathinfo($image,PATHINFO_EXTENSION);
-    $image = md5($image);
-    $image = $image . "." . $ext;
-    $target = "../image/".$image;
-
+    if($image == null){
+        $image = null;
+    }else{
+        $image_temp = $_FILES['image']['tmp_name'];
+        $ext = pathinfo($image,PATHINFO_EXTENSION);
+        $image = md5($image);
+        $image = $image . "." . $ext;
+        $target = "../image/".$image;
+    }
     // echo $_SESSION["UserId"];
     // die();
     // if($_SESSION['UserId']==null){
