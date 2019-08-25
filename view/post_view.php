@@ -15,7 +15,7 @@ include '../includes/nav.php';
 
                     $PostId = $_GET["id"];
                     $_SESSION["PostId"] = $PostId;
-                    $sql = mysqli_query($db,"SELECT u.FullNameOPT, p.Post,p.PostId,p.EnteredDate FROM post p LEFT JOIN user u on u.UserId = p.UserId WHERE p.PostId = '".$PostId."'");
+                    $sql = mysqli_query($db,"SELECT u.FullNameOPT, p.Post,p.PostId,p.PostImage,p.EnteredDate FROM post p LEFT JOIN user u on u.UserId = p.UserId WHERE p.PostId = '".$PostId."'");
 
                     $data = mysqli_fetch_assoc($sql);
              ?>
@@ -25,8 +25,9 @@ include '../includes/nav.php';
                         <i style="float: right;font-size: 12px;">[<?php echo $data['EnteredDate']; ?>]</i>
                     </div>
                 </div>
-                <div class="card-body">
-                    <p> <?php echo $data['Post']; ?> </p>
+                <div class="card-body d-flex">
+                    <img src="../image/<?php echo $data['PostImage'];?>" height="200px" width="200px">
+                    <p class="pl-2"> <?php echo $data['Post']; ?> </p>
 
                 </div>
             <?php } ?>
