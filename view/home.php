@@ -9,7 +9,7 @@ include '../includes/nav.php';
 <style>
     .vl {
         border-left: 4px solid lightgray;
-        height: 1500px;
+        height: auto;
     }
 
     .v2 {
@@ -115,6 +115,7 @@ include '../includes/nav.php';
                 <?php 
                     }
                  ?>
+
                 <?php }else{ ?>
 
                
@@ -149,6 +150,7 @@ include '../includes/nav.php';
                     }
                 }
                  ?>
+                 <div style="height: 10px;"></div>
               
         </div>
 
